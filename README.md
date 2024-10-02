@@ -11,6 +11,6 @@ This Project aims to  generate 10 analytical questions which will aid insight ge
 
 ### Tools Used
 
-- Microsoft Excel for Data Cleaning and Analysis [Download Here](https://www.xyz.com)
+- Microsoft Excel for Data Cleaning and Analysis [Download Here](https://www.Microsoft.com)
 - SQL- Strutured Query Language for Data Query
 - PowerBi for Visualizaion
