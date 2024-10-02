@@ -4,6 +4,7 @@ Documentation of my Projects while learning Data Analysis From HerTechTrail Acad
 ### Project Title: Parch and Posey Analysis
 
 ### Project Overview
+---
 This Project aims to  generate 10 analytical questions which will aid insight generation for Parch and Posey and the SQL queries that  answer these questions 
 
 ### Data Sources
@@ -15,13 +16,13 @@ This Project aims to  generate 10 analytical questions which will aid insight ge
 - SQL- Strutured Query Language for Data Query
 - PowerBi for Visualizaion
 
-  ### Data Cleaning and Preparations
+### Data Cleaning and Preparations
   in the intitial Phase, we performed the following actions;
   - Data Loading and Inspection
   - Handling missing Variables
   - Data Cleaning and Formatting
  
-  ### Explortaory Data Analysis
+### Explortaory Data Analysis
   This involved Exploring of Data to answer 10 analytical Questions such as;
  1. Which regions have the highest percentage of accounts placing multiple orders?
  2. What is the maximum quantity of poster paper that was ordered by a company?
@@ -34,7 +35,27 @@ This Project aims to  generate 10 analytical questions which will aid insight ge
  9. Which channels are driving the most and least traffic to the website, based on the frequency of web events?
  10. Identify total Sales per year on year.
 
-###
+ ### Data Analysis
+ This is where we include some basic lines of code or queries or even some of the DAX Expression used during the analysis
+
+ ```SQL
+SELECT 
+    r.name AS region_name,
+    COUNT(DISTINCT a.id) AS total_accounts,
+    COUNT(DISTINCT CASE WHEN order_counts.order_count > 1 THEN a.id END) AS multiple_order_accounts   
+FROM region r
+JOIN sales_reps sr ON r.id = sr.region_id
+JOIN accounts a ON sr.id = a.sales_rep_id
+JOIN (
+    SELECT 
+        o.account_id, 
+        COUNT(o.id) AS order_count
+    FROM orders o
+    GROUP BY o.account_id
+) order_counts ON a.id = order_counts.account_id
+GROUP BY r.name
+ORDER BY multiple_order_accounts DESC
+```
 
 
 
