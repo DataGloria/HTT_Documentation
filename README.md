@@ -8,3 +8,9 @@ This Project aims to  generate 10 analytical questions which will aid insight ge
 
 ### Data Sources
  The primary source of Data used here is a csv file of an hypothetical company called Parch and Posey
+
+### Tools Used
+
+- Microsoft Excel for Data Cleaning and Analysis [Download Here](https://www.xyz.com)
+- SQL- Strutured Query Language for Data Query
+- PowerBi for Visualizaion
