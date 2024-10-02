@@ -9,7 +9,7 @@ Data Sources
 
 Tools Used
 
-[Data Cleaning and Preparations](data-cleaning-and-preparation)
+[Data Cleaning and Preparations](#data-cleaning-and-preparations)
 
 Explortaory Data Analysis
 
