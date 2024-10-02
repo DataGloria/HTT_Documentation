@@ -3,6 +3,20 @@ Documentation of my Projects while learning Data Analysis From HerTechTrail Acad
 
 ### Project Title: Parch and Posey Analysis
 
+[Project Overview](#project-overview)
+
+Data Sources
+
+Tools Used
+
+[Data Cleaning and Preparations](data-cleaning-and-preparation)
+
+Explortaory Data Analysis
+
+Data Analysis
+
+Data Visualization
+
 ### Project Overview
 ---
 This Project aims to  generate 10 analytical questions which will aid insight generation for Parch and Posey and the SQL queries that  answer these questions 
@@ -59,6 +73,12 @@ ORDER BY multiple_order_accounts DESC
 
 ### Data Visualization
 ![Parch Posey Visualization](https://github.com/user-attachments/assets/04da3c54-ef75-4f37-bd1d-42267eb2abc2)
+
+🥇
+
+|H1| H2|H3|
+|--|---|--|
+|T1|T2 |T3|
 
 
 
