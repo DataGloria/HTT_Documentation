@@ -5,17 +5,17 @@ Documentation of my Projects while learning Data Analysis From HerTechTrail Acad
 
 [Project Overview](#project-overview)
 
-Data Sources
+[Data Sources](#data-sources)
 
-Tools Used
+[Tools Used](#tools-used)
 
 [Data Cleaning and Preparations](#data-cleaning-and-preparations)
 
-Explortaory Data Analysis
+[Explortaory Data Analysis](#exploratory-data-analysis)
 
-Data Analysis
+[Data Analysis](#data-analysis)
 
-Data Visualization
+[Data Visualization](#data-visualization)
 
 ### Project Overview
 ---
