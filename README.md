@@ -11,7 +11,7 @@ Documentation of my Projects while learning Data Analysis From HerTechTrail Acad
 
 [Data Cleaning and Preparations](#data-cleaning-and-preparations)
 
-[Explortaory Data Analysis](#exploratory-data-analysis)
+[Exploratory Data Analysis](#exploratory-data-analysis)
 
 [Data Analysis](#data-analysis)
 
@@ -36,7 +36,7 @@ This Project aims to  generate 10 analytical questions which will aid insight ge
   - Handling missing Variables
   - Data Cleaning and Formatting
  
-### Explortaory Data Analysis
+### Exploratory Data Analysis
   This involved Exploring of Data to answer 10 analytical Questions such as;
  1. Which regions have the highest percentage of accounts placing multiple orders?
  2. What is the maximum quantity of poster paper that was ordered by a company?
@@ -76,9 +76,7 @@ ORDER BY multiple_order_accounts DESC
 
 🥇
 
-|H1| H2|H3|
-|--|---|--|
-|T1|T2 |T3|
+
 
 
 
