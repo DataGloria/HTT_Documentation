@@ -1,5 +1,5 @@
 # HTT_Documentation
-Documentation of my Projects while learning Data Analysis From HerTechTrail Academy
+Documentation of my personal Projects while learning Data Analysis 
 
 ### Project Title: Parch and Posey Analysis
 
